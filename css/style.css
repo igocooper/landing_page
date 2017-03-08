@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
-.wrapper {
-	width: 980px;
-	margin: 0 auto;
-}
+
 .header {
 	box-sizing: border-box;
 	height:80px;
 	box-shadow: 0 2px 4px rgba(44, 61, 73, 0.14);
+}
+.header__wrapper {
+	width: 980px;
+	margin: 0 auto;
 }
 .header__header_logo {
 	display: inline-block;
@@ -21,7 +22,94 @@
 	font-size: 32px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	color: 303031;
+	color: #303031;
 	margin: 30px 10px 30px 0px;
 	vertical-align: top;
+}
+.main__wrapper {
+	width: 980px;
+	margin: 0 auto;
+	position:relative;
+}
+
+.main__wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main__mac_img {
+	display: inline-block;
+    position: absolute;
+    background-image: url(../img/macs.png);
+    width: 545px;
+    height: 491px;
+    left: -72px;
+    top: 90px;
+}
+
+.main__info_block {
+	width: 500px;
+    padding: 115px 0 60px;
+    float: right;
+}
+.button {
+	width: 400px;
+	height: 85px;
+	background-color: #ff863d;
+	border-radius:5px;
+	color:#ffffff;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	border: none;
+	box-shadow: 0 9px 25px rgba(44, 61, 73, 0.15);
+
+}
+#text_bold {
+	font-size: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: #303031;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.list_text {
+	    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #303031;
+    position: relative;
+    padding-left: 42px;
+    line-height: 1.45;
+    margin-bottom: 27px;
+}
+.list_img {
+	position: absolute;
+	top: 0px;
+    left: -8px;
+}
+.link_download {
+	padding-top: 15px;
+    width: 400px;
+    text-align: center;
+    display: block;
+    color: #399dde;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.link_benefits {
+	width: 205px;
+	position:relative;
+	display: inline-block;
+    color: #399dde;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 43px;
+    margin-top: -7px;
+}
+.icon_question {
+position:absolute;
+right: 33px;
+    top: -1px;
 }
