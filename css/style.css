@@ -67,7 +67,7 @@
 }
 #text_bold {
 	font-size: 32px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro Regular', sans-serif;
 	font-weight: 300;
 	color: #303031;
 	padding-bottom: 30px;
@@ -95,7 +95,7 @@
     display: block;
     color: #399dde;
     font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro Regular', sans-serif;
 }
 
 .link_benefits {
@@ -104,7 +104,7 @@
 	display: inline-block;
     color: #399dde;
     font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro Regular', sans-serif;
     padding-left: 43px;
     margin-top: -7px;
 }
