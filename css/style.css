@@ -129,6 +129,58 @@ position:absolute;
 right: 33px;
     top: -1px;
 }
+.reviews {
+
+}
+.reviews__wrapper {
+	width: 980px;
+	margin:0 auto;
+}
+.reviews__img_comics {
+display: block;
+margin: 0 auto;
+}
+.reviews__title {
+	color: #303031;
+    font-size: 30px;
+    font-family: 'Source Sans Pro Regular', sans-serif;
+	text-align: center;
+}
+.button_blue {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+    width: 400px;
+    height: 80px;
+	background-color: #00afff;
+	border-radius:5px;
+	color:#ffffff;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	border: none;
+	box-shadow: 0 9px 25px rgba(44, 61, 73, 0.15);
+	}
+.link_download2 {
+	margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    display: block;
+    color: #399dde;
+    font-size: 16px;
+    font-family: 'Source Sans Pro Regular', sans-serif;
+}
+.reviews__block2 {
+	background-color:#f7fafc;
+	
+}
+.reviews__block2_wrapper {
+	margin:0 auto;
+	width: 980px;
+}
+.reviews__block2-img {
+	padding: 50px;
+}
 .footer {
 	background-color: #eff3f6;
 }
